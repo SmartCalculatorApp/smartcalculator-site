@@ -1,0 +1,16 @@
+{
+  "name": "SmartCalculator",
+  "short_name": "SmartCalc",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f6f8fc",
+  "theme_color": "#0f172a",
+  "description": "Free online calculators for everyday calculations.",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

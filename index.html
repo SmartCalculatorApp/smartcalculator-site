@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="SmartCalculator — free online calculators for profit and loss, percentage, EMI, interest, discount, tax, area, volume, construction and more.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://smartcalculator.online/">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="SmartCalculator — Free Online Calculators">
+  <meta property="og:description" content="Fast, simple and powerful online calculators.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://smartcalculator.online/">
+  <title>SmartCalculator — Free Online Calculators</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="SmartCalculator home">
+      <span class="logo">Σ</span>
+      <span><strong>SmartCalculator</strong><small>Fast, simple & powerful</small></span>
+    </a>
+    <div class="header-actions">
+      <button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+      <select id="language" aria-label="Language">
+        <option value="en">English</option>
+        <option value="ur">Urdu</option>
+        <option value="es">Español</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">FREE ONLINE TOOLS</p>
+        <h1 id="heroTitle">All-in-One Calculator</h1>
+        <p id="heroText">Calculate faster with clean, accurate and mobile-friendly tools.</p>
+      </div>
+      <div class="hero-badge">⚡ Fast</div>
+    </section>
+
+    <div class="toolbar">
+      <label class="search-wrap">
+        <span>⌕</span>
+        <input id="search" type="search" placeholder="Search calculators..." autocomplete="off">
+      </label>
+      <button id="historyBtn" class="btn" type="button">🕘 History</button>
+    </div>
+
+    <nav id="tabs" class="tabs" aria-label="Calculator categories"></nav>
+    <section id="app" aria-live="polite"></section>
+
+    <section class="info-grid">
+      <article><h2>Why SmartCalculator?</h2><p>Simple calculators with clear results, responsive design and local calculation history.</p></article>
+      <article><h2>Private by default</h2><p>Calculations are performed in your browser. History is stored locally on your device.</p></article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 SmartCalculator. All rights reserved.</p>
+    <div><a href="#privacy">Privacy</a><a href="#terms">Terms</a><a href="#disclaimer">Disclaimer</a></div>
+  </footer>
+
+  <dialog id="infoDialog">
+    <div class="dialog-inner">
+      <button id="closeDialog" class="icon-btn close" type="button" aria-label="Close">×</button>
+      <div id="dialogContent"></div>
+    </div>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
