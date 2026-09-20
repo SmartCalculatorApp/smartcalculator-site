@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://smartcalculator.online/sitemap.xml
+
+Sitemap: https://smartcalculatorapp.github.io/smartcalculator-site/sitemap.xml
